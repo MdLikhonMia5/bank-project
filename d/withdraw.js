@@ -13,7 +13,7 @@ document.getElementById('wClick').addEventListener('click', function(){
 
   const tota = int_pp - int_pass_in;
 
-  if(int_pp > int_pass_in) {
+  if(int_pp >= int_pass_in) {
     dd.innerText = tt;
     pp.innerText = tota;
   }else{
