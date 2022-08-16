@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <header class="mt-9">
+    <h1 class="text-5xl font-bold text-slate-700 text-center">BAAP.bank.net</h1>
+  </header>
+
+  <main>
+      <section>
+          <div class="grid grid-cols-3 text-white w-9/12 mx-auto gap-8 mt-9">
+                <div class="bg-green-500 rounded-xl p-7">
+                  <h1 class="text-3xl ">Deposit</h1>
+                  <h2 class="text-5xl">$<span id="d_update">00</span></h2>
+                </div>
+                <div class="bg-zinc-500 rounded-xl p-7">
+                  <h1 class="text-3xl ">Withdraw</h1>
+                  <h2 class="text-5xl" >$<span id="acc">00</span></h2>
+                </div>
+                <div class="bg-violet-500 rounded-xl p-7">
+                  <h1 class="text-3xl ">Balance</h1>
+                  <h2 class="text-5xl">$<span id="b_update">00</span></h2>
+                </div>
+                
+          </div>
+      </section>
+      <section>
+        <div class="grid grid-cols-2 w-9/12 mx-auto gap-8 mt-9">
+          <div class="bg-fuchsia-300 rounded-xl p-7">
+            <h1 class="text-3xl mb-4 text-white">Deposit</h1>
+            <input class="block mb-4 w-9/12 py-1 rounded-lg" type="text" id="em_in" placeholder="deposit here" required>
+            <button class="bg-sky-500 px-4 py-1 text-white font-bold rounded-lg" id="dClick">Deposit</button> 
+          </div>
+          <div class="bg-indigo-400 rounded-xl p-7">
+            <h1 class="text-3xl mb-4 text-white">Withdraw</h1>
+            <input class="block mb-4 w-9/12 py-1 rounded-lg" type="text" id="pass_in" placeholder="withdraw here" required>
+            <button class="bg-red-500 px-4 py-1 text-white font-bold rounded-lg" id="wClick">Withdraw</button> 
+          </div>
+           
+    </div>
+      </section>
+  </main>
+  <script src="d/deposit.js"></script>
+  <script src="d/withdraw.js"></script>
+</body>
+</html>
