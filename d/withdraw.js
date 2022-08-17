@@ -21,4 +21,5 @@ document.getElementById('wClick').addEventListener('click', function(){
   }else{
     alert("withdraw valid amount!");
   }
+passss.value = '';
 })
