@@ -6,6 +6,10 @@ document.getElementById('dClick').addEventListener('click', function(){
   const first_lol = parseFloat(emm_val);
   const sec_lol = parseFloat(ddd);
   const all = sec_lol + first_lol;
+  if(emm_val === ''){
+    alert("Please input valid desposit amount!!");
+    return;
+  }
   dd.innerText = all;
   const bb = document.getElementById('b_update');
   bb.innerText = all;

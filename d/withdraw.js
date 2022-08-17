@@ -16,6 +16,8 @@ document.getElementById('wClick').addEventListener('click', function(){
   if(int_pp >= int_pass_in) {
     dd.innerText = tt;
     pp.innerText = tota;
+  }else if(past_in == ''){
+        alert("Input a valid withdraw amount!!");
   }else{
     alert("withdraw valid amount!");
   }
