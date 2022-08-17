@@ -7,7 +7,7 @@ document.getElementById('dClick').addEventListener('click', function(){
   const sec_lol = parseFloat(ddd);
   const all = sec_lol + first_lol;
   dd.innerText = all;
-  
   const bb = document.getElementById('b_update');
   bb.innerText = all;
+  emm.value = '';
 })
