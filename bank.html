@@ -12,18 +12,18 @@
 
   <main>
       <section>
-          <div class="grid grid-cols-3 text-white w-9/12 mx-auto gap-8 mt-9">
+          <div class="grid grid-cols-3 grid-flow-col text-white w-9/12 mx-auto gap-8 mt-9">
                 <div class="bg-green-500 rounded-xl p-7">
-                  <h1 class="text-3xl ">Deposit</h1>
-                  <h2 class="text-5xl">$<span id="d_update">00</span></h2>
+                  <h1 class="text-3xl font-semibold">Deposit</h1>
+                  <h2><sub class="text-5xl">$<sub><span id="d_update" class="text-5xl">0.0</span></h2>
                 </div>
                 <div class="bg-zinc-500 rounded-xl p-7">
-                  <h1 class="text-3xl ">Withdraw</h1>
-                  <h2 class="text-5xl" >$<span id="acc">00</span></h2>
+                  <h1 class="text-3xl font-semibold">Withdraw</h1>
+                  <h2><sub class="text-5xl">$<sub><span id="acc" class="text-5xl">0.0</span></h2>
                 </div>
                 <div class="bg-violet-500 rounded-xl p-7">
-                  <h1 class="text-3xl ">Balance</h1>
-                  <h2 class="text-5xl">$<span id="b_update">00</span></h2>
+                  <h1 class="text-3xl font-semibold">Balance</h1>
+                  <h2><sub class="text-5xl">$<sub><span id="b_update" class="text-5xl">0.0</span></h2>
                 </div>
                 
           </div>
@@ -32,13 +32,13 @@
         <div class="grid grid-cols-2 w-9/12 mx-auto gap-8 mt-9">
           <div class="bg-fuchsia-300 rounded-xl p-7">
             <h1 class="text-3xl mb-4 text-white">Deposit</h1>
-            <input class="block mb-4 w-9/12 py-1 rounded-lg" type="text" id="em_in" placeholder="deposit here" required>
-            <button class="bg-sky-500 px-4 py-1 text-white font-bold rounded-lg" id="dClick">Deposit</button> 
+            <input class="block mb-4 w-9/12 py-2 rounded-lg pl-4" type="text" id="em_in" placeholder="deposit here" required>
+            <button class="bg-sky-500 px-4 py-1 hover:bg-indigo-800 text-white font-bold rounded-lg" id="dClick">Deposit</button> 
           </div>
           <div class="bg-indigo-400 rounded-xl p-7">
             <h1 class="text-3xl mb-4 text-white">Withdraw</h1>
-            <input class="block mb-4 w-9/12 py-1 rounded-lg" type="text" id="pass_in" placeholder="withdraw here" required>
-            <button class="bg-red-500 px-4 py-1 text-white font-bold rounded-lg" id="wClick">Withdraw</button> 
+            <input class="block mb-4 w-9/12 py-2 pl-4 rounded-lg" type="text" id="pass_in" placeholder="withdraw here" required>
+            <button class="bg-red-500 px-4 py-1 hover:bg-indigo-800 text-white font-bold rounded-lg" id="wClick">Withdraw</button> 
           </div>
            
     </div>
